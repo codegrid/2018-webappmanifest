@@ -1,0 +1,19 @@
+{
+  "name": "Web App Manifestデモ（カラー3）",
+  "short_name": "Color 3",
+  "display": "standalone",
+  "scope": "/2018-webappmanifest/color3/",
+  "start_url": "/2018-webappmanifest/color3/",
+  "theme_color": "#cccccc",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/2018-webappmanifest/_icon/icon-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/2018-webappmanifest/_icon/icon-512.png",
+      "sizes": "512x512"
+    }
+  ]
+}
