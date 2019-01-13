@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web App Manifestデモ（アイコン1）</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="../_css/style.css">
+<body lang="ja">
+<header><img src="../_image/logo.svg" alt="CodeGrid" width="96"></header>
+<main>
+  <p>CodeGridはフロントエンドに関わる人のためのメディアです。</p>
+  <p>このページは技術用のデモです。CodeGridについては、CodeGridのWebサイトをご確認ください。</p>
+  <figure>
+    <a href="https://www.codegrid.net/">
+      <img
+        src="https://pxgrid2.imgix.net/codegrid-banner/codegrid-banner.png"
+        alt="CodeGrid ― フロントエンドに関わる人々のガイド"
+        width="420" height="180">
+    </a>
+  </figure>
+</main>
+<script>
+try {
+  navigator.serviceWorker.register(`serviceworker.js`).then(registration => {
+    console.log(`service worker registration succeeded`);
+  });
+}
+catch (error) {
+  console.error(error);
+}
+</script>
+</body>
