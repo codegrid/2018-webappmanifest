@@ -1,0 +1,20 @@
+{
+  "name": "CodeGridデモ（アイコン3）",
+  "short_name": "CodeGrid",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/2018-webappmanifest/icon3/",
+  "start_url": "/2018-webappmanifest/icon3/",
+  "icons": [
+    {
+      "src": "/2018-webappmanifest/_icon/icon-096.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/2018-webappmanifest/_icon/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
