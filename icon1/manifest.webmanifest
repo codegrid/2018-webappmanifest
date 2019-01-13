@@ -1,8 +1,6 @@
 {
   "name": "CodeGrid（デモ1）",
   "short_name": "CodeGrid",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/2018-webappmanifest/icon1/",
   "start_url": "/2018-webappmanifest/icon1/",
