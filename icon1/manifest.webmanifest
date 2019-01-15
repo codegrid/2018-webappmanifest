@@ -1,5 +1,5 @@
 {
-  "name": "Web App Manifestデモ（アイコン1）",
+  "name": "Web App Manifestデモ（Icon 1）",
   "short_name": "Icon 1",
   "display": "standalone",
   "scope": "/2018-webappmanifest/icon1/",

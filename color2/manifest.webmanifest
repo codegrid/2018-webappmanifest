@@ -1,5 +1,5 @@
 {
-  "name": "Web App Manifestデモ（カラー2）",
+  "name": "Web App Manifestデモ（Color 2）",
   "short_name": "Color 2",
   "display": "standalone",
   "scope": "/2018-webappmanifest/color2/",
