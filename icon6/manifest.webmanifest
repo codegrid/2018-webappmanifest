@@ -1,0 +1,22 @@
+{
+  "name": "Web App Manifestデモ（アイコン6）",
+  "short_name": "Icon 6",
+  "display": "standalone",
+  "scope": "/2018-webappmanifest/icon6/",
+  "start_url": "/2018-webappmanifest/icon6/",
+  "icons": [
+    {
+      "src": "/2018-webappmanifest/_icon/icon-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/2018-webappmanifest/_icon/icon-192-safezone.png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/2018-webappmanifest/_icon/icon-512.png",
+      "sizes": "512x512"
+    }
+  ]
+}
