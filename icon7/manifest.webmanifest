@@ -1,0 +1,13 @@
+{
+  "name": "Web App Manifestデモ（Icon 7）",
+  "short_name": "Icon 7",
+  "display": "standalone",
+  "scope": "/2018-webappmanifest/icon7/",
+  "start_url": "/2018-webappmanifest/icon7/",
+  "icons": [
+    {
+      "src": "/2018-webappmanifest/_icon/icon-192-rounded.png",
+      "sizes": "192x192"
+    }
+  ]
+}
