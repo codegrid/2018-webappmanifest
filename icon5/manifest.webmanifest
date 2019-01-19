@@ -6,8 +6,8 @@
   "start_url": "/2018-webappmanifest/icon5/",
   "icons": [
     {
-      "src": "/2018-webappmanifest/_icon/icon-1024-circle.png",
-      "sizes": "192x192 512x512 1024x1024"
+      "src": "/2018-webappmanifest/_icon/icon-192-circle.png",
+      "sizes": "192x192"
     }
   ]
 }
