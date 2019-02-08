@@ -1,9 +1,9 @@
 {
-  "name": "Web App Manifestデモ（Installation 1）",
-  "short_name": "Installation 1",
+  "name": "Web App Manifestデモ（Installation 2）",
+  "short_name": "Installation 2",
   "display": "standalone",
-  "scope": "/2018-webappmanifest/installation1/",
-  "start_url": "/2018-webappmanifest/installation1/",
+  "scope": "/2018-webappmanifest/installation2/",
+  "start_url": "/2018-webappmanifest/installation2/",
   "icons": [
     {
       "src": "/2018-webappmanifest/_icon/icon-192.png",
