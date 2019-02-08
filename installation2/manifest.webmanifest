@@ -1,0 +1,17 @@
+{
+  "name": "Web App Manifestデモ（Installation 1）",
+  "short_name": "Installation 1",
+  "display": "standalone",
+  "scope": "/2018-webappmanifest/installation1/",
+  "start_url": "/2018-webappmanifest/installation1/",
+  "icons": [
+    {
+      "src": "/2018-webappmanifest/_icon/icon-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/2018-webappmanifest/_icon/icon-512.png",
+      "sizes": "512x512"
+    }
+  ]
+}
