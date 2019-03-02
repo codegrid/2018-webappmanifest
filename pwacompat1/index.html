@@ -22,13 +22,12 @@
   integrity="sha384-ptgwb3/v69WGur7IwSnWOowVxE7hcRB3DG/EiHdejrw2sFNwUHynFbiRMPxc4hdS"
   crossorigin="anonymous"></script>
 <script>
-try {
-  navigator.serviceWorker.register(`serviceworker.js`).then(registration => {
-    console.log(`service worker registration succeeded`);
-  });
-}
-catch (error) {
+navigator.serviceWorker.register(`serviceworker.js`)
+.then((registration) => {
+  console.log(`service worker registration succeeded.`);
+})
+.catch((error) => {
   console.error(error);
-}
+})
 </script>
 </body>
