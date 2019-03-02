@@ -39,18 +39,22 @@ function updateInstallButton(active = false) {
   // installButton.hidden = !active;
 }
 
-window.deferredPrompt = null;
+// デモコードなのでグローバルに保持しておく
+// 汚染を防ぐためにSymbol使ってみる
+const deferredPrompt = Symbol(`deferrerd-prompt`);
+window[deferredPrompt] = null;
+
 window.addEventListener(`beforeinstallprompt`, (event) => {
   console.log(`beforeinstallprompt fired.`);
   event.preventDefault();
-  window.deferredPrompt = event;
-  updateInstallButton(!!window.deferredPrompt);
+  window[deferredPrompt] = event;
+  updateInstallButton(!!window[deferredPrompt]);
 });
 
 const installButton = document.querySelector(`.button-install`);
 installButton.addEventListener(`click`, async (event) => {
   event.preventDefault();
-  let promptEvent = window.deferredPrompt;
+  let promptEvent = window[deferredPrompt];
 
   try {
     promptEvent.prompt();
@@ -70,8 +74,8 @@ installButton.addEventListener(`click`, async (event) => {
     console.log(error);
   }
   finally {
-    window.deferredPrompt = null;
-    updateInstallButton(!!window.deferredPrompt);
+    window[deferredPrompt] = null;
+    updateInstallButton(!!window[deferredPrompt]);
   }
 });
 </script>
