@@ -28,3 +28,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+.install {
+  margin: 2.5em 0;
+}
+.button-install {
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 0.3em 1em;
+  font-size: 1em;
+}
+.button-install[disabled] {
+  background-color: #bbb;
+}
