@@ -1,0 +1,17 @@
+{
+  "name": "Web App Manifestデモ（display-mode 2）",
+  "short_name": "display-mode 2",
+  "display": "standalone",
+  "scope": "/2018-webappmanifest/installation2/",
+  "start_url": "/2018-webappmanifest/installation2/",
+  "icons": [
+    {
+      "src": "/2018-webappmanifest/_icon/icon-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/2018-webappmanifest/_icon/icon-512.png",
+      "sizes": "512x512"
+    }
+  ]
+}
